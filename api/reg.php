@@ -12,7 +12,7 @@
     $db = $database->connection();
     $item = new User($db);
     $data = json_decode(file_get_contents("php://input"));
-    
+
     
     // $item->user_id = $data->user_id;
     $item->username = $data->username;

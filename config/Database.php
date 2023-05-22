@@ -1,5 +1,5 @@
 <?php 
- include_once 'config.php';
+//  include_once 'config.php';
 
 // class Database {
 
@@ -26,7 +26,7 @@
 // }
 
 class Database {
-    private $host = "127.0.0.1";
+    private $host = "localhost";
     private $database_name = "rest";
     private $username = "root";
     private $password = "123456";
